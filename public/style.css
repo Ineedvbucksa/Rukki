@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    background-image:  url("bgPhones.png"), url("vectorYellow.png"), url("vectorRed.png");
+    background-repeat: no-repeat;
+    background-position: 1010px 165px, 995px -50px, 920px 640px;
+    background-size: auto, 1290px 1080px, auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav .nav-item {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 30px;
+}
+
+#city-form {
+    color: #333333;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    margin-right: 125px;
+}
+
+.contact-apps {
+    display: flex;
+    padding-left: 100px;
+}
+
+.app-link {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+}
+
+#number {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    padding-left: 140px;
+}
+
+.account {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+}
+
+#login {
+    color: #333333;
+    text-decoration: none;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
+#reg {
+    color: #333333;
+    width: 150px;
+    height: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: white;
+    border-radius: 10%;
+}
+
+.main-text {
+    display: flex;
+    justify-content: left;
+    padding-top: 100px;
+    padding-left: 107px;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+.first-form {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+    align-items: center;
+    padding-left: 107px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.second-form {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+    align-items: center;
+    padding-left: 107px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.form-item {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10%;
+}
+
+#first-input {
+    width: 300px;
+    height: 48px;
+    padding: 0px 0px 0px 40px;
+    background: url(shape.png) no-repeat center left;
+    background-size: auto 50%;
+}
+
+#second-input {
+    width: 300px;
+    height: 48px;
+}
+
+#third-input {
+    width: 140px;
+    height: 48px;
+}
+
+#fourth-input {
+    width: 243px;
+    height: 48px;
+}
+
+#fifth-input {
+    width: 140px;
+    height: 48px;
+}
+
+#submit {
+    color: white;
+    width: 296px;
+    height: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #FF6633;
+    border-radius: 10%;
+    margin-left: 108px;
+    margin-top: 50px;
+}
+
+.job-vacancy {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 107px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#question {
+    color: #222222;
+}
+
+#offfer-todo {
+    color: #FF6633;
+}
