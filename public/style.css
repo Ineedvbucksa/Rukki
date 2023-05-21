@@ -9,6 +9,7 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 20px;
@@ -24,7 +25,7 @@ header {
     -webkit-appearance: none;
     border: none;
     outline: none;
-    margin-right: 125px;
+    padding-right: 125px;
 }
 
 .nav-item {
@@ -192,4 +193,50 @@ header {
 
 #offfer-todo {
     color: #FF6633;
+}
+
+@media screen and (max-width: 1700px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #city-form {
+        padding-right: 20px;
+    }
+
+    .nav-item {
+        color: #333333;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 51px;
+        padding-right: 10px;
+    }
+
+    .contact-apps {
+        padding-right: 10px;
+    }
+
+    #number {
+        padding-right: 10px;
+    }
+
+    #login {
+        padding-right: 10px;
+    }
+
+    .main-text {
+        padding-left: 57px;
+    }
+
+    .first-form {
+        padding-left: 57px;
+    }
+
+    .second-form {
+        padding-left: 57px;
+    }
 }
